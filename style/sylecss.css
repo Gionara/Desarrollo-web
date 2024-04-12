@@ -12,7 +12,7 @@
  .nav-link {
   font-size: 14px;
   font-weight: bold;
-  color: white;
+  color: rgb(251, 251, 251);
   padding: 10px 15px;
 }
 .nav-link:hover,
@@ -46,19 +46,20 @@
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  background-color: #f8f9fa;
+  background-color: #019a6c;
+  color: #000000;
 }
 .form-control {
   border-radius: 25px;
 }
 .btn-outline-success {
-  border-color: lightseagreen;
+  border-color: #019a6c;
   color: #ffffff;
   font-weight: bold;
   border-radius: 25px;
 }
 .btn-outline-success:hover {
-  background-color: lightseagreen;
+  background-color: #019a6c;
   color: #fff;
 }
 body{
@@ -107,3 +108,5 @@ i {
 .tamano_img_cartas{
     width: 70%;
 }
+p{text-align: justify;}
+
