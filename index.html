@@ -5,103 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-  <style>
-    .navbar {
-      border-bottom: 1px solid #000000;
-    }
-    .navbar-brand {
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .navbar-toggler {
-      border: none;
-      background-color: transparent;
-    }
-
-    .nav-link {
-      font-size: 14px;
-      font-weight: bold;
-      color: white;
-      padding: 10px 15px;
-    }
-    .nav-link:hover,
-    .nav-link:focus {
-      color: #019a6c;
-    }
-    .dropdown-menu {
-      border: none;
-      border-radius: 0;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 0;
-      transition: all 0.3s;
-      opacity: 0;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      z-index: 1000;
-      display: none;
-      background-color: #202020;
-    }
-    .dropdown:hover .dropdown-menu {
-      display: block;
-      opacity: 1;
-    }
-    .dropdown-item {
-      font-size: 14px;
-      font-weight: bold;
-      color: #ffffff;
-      padding: 10px 20px;
-    }
-    .dropdown-item:hover,
-    .dropdown-item:focus {
-      background-color: #f8f9fa;
-    }
-    .form-control {
-      border-radius: 25px;
-    }
-    .btn-outline-success {
-      border-color: lightseagreen;
-      color: #ffffff;
-      font-weight: bold;
-      border-radius: 25px;
-    }
-    .btn-outline-success:hover {
-      background-color: lightseagreen;
-      color: #fff;
-    }
-    body{
-      background-color: rgb(255, 255, 255);
-    }
-    .carousel {
-    position: relative;
-  }
-  .carousel-indicators {
-    position:absolute ;
-    bottom: 10px;
-    left: 50%;
-    align-items: center;
-    align-content: center;
-    transform: translateY(100%) translateX(-50%);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .carousel-indicators button {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    border-color: lightseagreen;
-    margin-top: 10px;
-    margin-right: 5px;
-    cursor: pointer;
-  }
-  a{  text-decoration: none;
-        display: block;
-        padding:3px;
-        color: #ffffff;}
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style/sylecss.css">
+  
 </head>
 <body>
 
@@ -269,16 +175,16 @@
   </div>  
 </div>
 <!-- PROMOCIONES Y DESCUENTOS-->
-<div class="container-fluid"  style=" align-items: center; align-content: center;">
+<div class="container-fluid centrar">
     <div class="row">
         <div class="col-sm-12">
           <h1 class="text-center" style="font-style: normal; padding: 3%;" > Nuestros Beneficios  </h1>
         </div>
         <div class="row">
-          <!-- CARD 1 -->
+          <!-- CARTA APORTE -->
             <div class="col-sm-4">
                 <div class="card">
-                    <img src="img/card8.jpg" class="card-img-top" alt="...">
+                    <img src="img/grupo_ninos.png" class="card-img-top tamano_img_cartas" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">APORTA A LA FUNDACION </h5>
                     <p class="card-text"> Obten un 5% de descuento en tus compras.</p>
@@ -288,9 +194,9 @@
             <!-- CARD 2 -->
             <div class=" col-sm-4">
               <div class="card">
-              <img src="img/card9.jpg" class="card-img-top" alt="...">
+              <img src="img/despacho.jpg" class="card-img-top tamano_img_cartas" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Segue tu despacho</h5>
+                <h5 class="card-title">Sigue tu despacho</h5>
                 <p class="card-text">Conoce el estado de tu despacho.</p>
               </div>
               </div>
@@ -318,21 +224,23 @@
       <img src="img/logo-blanco.png" width="50" alt="">
       <a class="navbar-brand d-md-none" href="index.html">
         <a class="navbar-brand" href="index.html">NOMBRE</a>
-      </a>    </div>
-    <div class="col-6 col-md">
-      <h5>Sobre nosotros</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="sobre nosotros.html">Conocenos </a></li>
-      </ul>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="sobre_fundación.html">Fundacion  </a></li>
-      </ul>
+      </a>
     </div>
     <div class="col-6 col-md">
-      <h5>Politicas de Privacidad</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="termino y condiciones.html">Terminos de servicios</a></li>
+        <li><a href="sobre nosotros.html"><h5 class="titulo_blanco">Sobre nosotros</h5></a></li>
       </ul>
+      <ul class="list-unstyled text-small">
+        <li><a href="sobre_fundación.html"><h5 class="titulo_blanco">Politicas de Privacidad</h5></a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md ">
+      <div class="d-flex justify-content-center"><h5>Síguenos</h5></div>
+      <div class="d-flex justify-content-center">
+        <div> <a href="url facebook"><i class="bi bi-facebook"></i></a> </div>
+        <div> <a href="url twitter"><i class="bi bi-twitter"></i></a> </div>
+        <div> <a href="url instagram"><i class="bi bi-instagram"></i></a></div>
+      </div>
     </div>
   </div>
 </footer>
