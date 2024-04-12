@@ -88,7 +88,7 @@
 <!-- CONTENIDO-->
 <div class="container-fluid py-5">
   <div class="row justify-content-end ">
-    <div class="col-6">      
+    <div class="col-lg-6 col-md-8">      
       <h3>Productos</h3>
       <!--CARTA DE PRODUCTO-->
       <div class="card">
@@ -115,9 +115,33 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-lg-4"> <!--imagen de la carta-->
+            <img src="img/tijera_1.png" alt="..." class="tamano_img_product_carro">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5>Tijera de podar con Asas grandes</h5>
+              <div class="row">
+                <div class="col-lg-6">Valor unidad
+                  <p>$17.000</p>
+                </div>
+                <div class="col-lg-6">Unidades
+                  <div class="input-group">
+                    <button class="btn btn-secondary rounded-pill" id="decremento">-</button>
+                    <input type="number" class="form-control text-center" id="cantidad_item" value="0" min="1">
+                    <button class="btn btn-secondary rounded-pill" id="incremento">+</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--Resumen de compra-->
-    <div class="col-4">
+    <div class="col-lg-4 ">
       <h3>Resumen de compra</h3>
       <div class="card">
         <div class="card-body col-lg-4">
