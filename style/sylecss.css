@@ -108,5 +108,14 @@ i {
 .tamano_img_cartas{
     width: 70%;
 }
-p{text-align: justify;}
-
+p{
+  text-align: justify;
+}
+.tamano_img_product_carro{
+  width: 70%;
+  padding: 6px;
+}
+.custom-button {
+  display: inline-block;
+  padding: 0.2rem 0.2rem;
+}
