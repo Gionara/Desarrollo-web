@@ -126,15 +126,14 @@
             <svg class="bi" width="24" height="24"><use xlink:href="Home"></use></svg>
           </a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="herramientas.html" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Herramientas
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-              <li><a class="dropdown-item" href="#">PRODUCTO 1</a></li>
-              <li><a class="dropdown-item" href="#">PRODUCTO 2</a></li>
-              <li><a class="dropdown-item" href="#">PRODUCTO 3</a></li>
+              <li><a class="dropdown-item" href="tijeras.html">Tijeras</a></li>
+              <li><a class="dropdown-item" href="#">Palas</a></li>
+              <li><a class="dropdown-item" href="#">Otras Herramientas</a></li>
             </ul>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                Plantas y Semillas 
@@ -183,10 +182,68 @@
   
 <!-- CONTENIDO-->
 <!--FORMULARIO DE REGISTRO-->
+  
+<div class="container">
+<main>
+  <div class="py-5 text-center">
+    <h2>Formulario de Registro</h2>
+  </div>
 
-<div class="b-example-divider"><p></p></div>
+  <div class="row">
+    <div class="col">
+      <h4 class="mb-3">Datos Personales</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
+
+          </div>
+        </div>
+
+          <div class="col-sm-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="" value="" required>
+          </div>
+
+          <div class="col-12">
+            <label for="Email" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" id="Email" placeholder="Email" required>
+
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="Email" class="form-label"> Confirmar Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" id="Email" placeholder="Email" required>
+
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="address" class="form-label">Contraseña</label>
+            <input type="text" class="form-control" id="address" placeholder="Contraseña" required>
+          </div>
+          <div class="col-12">
+            <label for="address" class="form-label">Repite contraseña</label>
+            <input type="text" class="form-control" id="address" placeholder="Contraseña" required>
+          </div>
+
+        <hr class="my-4">
+
+        <button class="w-100 btn btn-success btn-lg" type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+</main>
+</div>
+
+
+
 <!-- FOOTER -->
-
+<div class="b-example-divider"><p></p></div>
 <footer class="container-fluid bg-dark">
   <div class="row" style="padding: 3%;color: #f8f9fa;">
     <div class="col-12 col-md">
@@ -249,7 +306,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success">Registrarse </button>        
+        <a class="btn btn-success" href="register.html" role="button">Registrarse</a>     
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
       </div>
     </div>
